@@ -1,70 +1,83 @@
-project : Collection manipulation 
+Project name :- Functional test
 
-Student management system - 
---> The Student Management System is a simple Python-based mini project used to manage student records efficiently.
-This project allows users to add, display, update, and delete student information using a menu-driven program.
-The project is mainly designed for beginners to understand the basic concepts of Python programming in an easy and practical way.
-It uses Python dictionaries for storing data and loops for continuous execution of the program.
+Introduction:-
 
-Features :-
-1. Add new student details
-2. Display all student records
-3. Update student information
-4. Delete student records
-5. Display available subjects
-6. Exit the program
+This is a simple Python program used to perform different operations on a dataset using functions, recursion, lambda functions, and sorting.
+It is specially created for beginners to understand important Python programming concepts in a practical way.
 
-Technologies Used:-
+--> Features:
 
-This project is developed using:
-1. Python Programming Language
-2. Dictionary
-3. while loop
-4. if-elif-else statements
-5. User input functions
- 
-Student Details Stored:-
-- Student ID
-- Student Name
-- Age
-- Grade
-- Date of Birth
-- Subject
+1. Input data into a 1D array
+2. Display data summary
+3. Calculate factorial using recursion
+4. Filter data using lambda function
+5. Sort data in ascending or descending order
+6. Display dataset statistics
+7. Exit the program
 
-Working of Project:-
-choice 1. Add Student
-choice 2. Display Students
-choice 3. Update Student Information
-choice 4. Delete Student
-choice 5. Display Subject Offered
-choice 6. Exit
+--> Concepts Used:
+  Functions
+  Recursion
+  Lambda Function
+  Lists
+  Sorting
+  Built-in Functions
 
-Concepts Used in Project:-
+1. Input Data:-
+Users can enter multiple numbers in a single line to create a 1D array.
 
-1. Dictionary
-Dictionary is used to store student data.
-students = {}
+2. Display Data Summary:-
 
-2. Loop
-'while True loop' is used to run the program continuously until the user exits.
+The program displays:
 
-3. Conditional Statements
-if-elif-else statements are used to check the user’s choice and perform operations.
+Total number of elements
+Minimum value
+Maximum value
+Sum of all elements
+Average value
 
-4. CRUD Operations
-This project performs CRUD operations:
+Python built-in functions used:
 
-Create → Add student
-Read → Display student
-Update → Modify student details
-Delete → Remove student
+len()
+min()
+max()
+sum()
 
-5. Exit Program
-This option stops the program execution safely.
+3. Calculate Factorial Using Recursion
+The program calculates the factorial of a number using a recursive function.
 
-Conclusion:-
+4. Filter Data Using Lambda Function
+Users can enter a threshold value, and the program filters all values greater than or equal to that threshold.
 
---> The collection manipulaion is a simple and useful Python mini project developed for beginners.
-It helps students understand important Python concepts through practical implementation.
+Concepts Used:-
+Lambda Function
+filter()
 
-This project is a good example of how Python can be used to create small real-world applications easily and efficiently.
+5. Sort Data
+The program allows sorting in:
+
+--Ascending Order
+--Descending Order
+
+Function Used:
+sorted()
+
+6. Display Dataset Statistics
+The program uses a separate function to display:
+
+--Minimum value
+--Maximum value
+--Sum of values
+--Average value
+
+Concept Used:
+User-defined Functions
+
+7. Exit Program
+The user can safely exit the program using the exit option.
+
+Conclusion:--
+The Functional test Program is a simple and effective project for learning Python basics.
+This project helps beginners understand basic Python concepts in an easy and practical way.
+
+-- yaksha patel
